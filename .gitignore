@@ -1,6 +1,7 @@
 # Datos pesados / no distribuibles (ver README.md para dónde conseguirlos)
 data/MERGE2023.dta
 data/merged_all_surveys.dta
+2026-09-21-ClaudeCODE.txt
 
 # Archivos generados al compilar LaTeX
 build/
