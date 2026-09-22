@@ -206,13 +206,15 @@ Se utiliza la ENOE 2023, una encuesta representativa a nivel nacional de México
 
 Regresión con microdatos:
 \begin{equation}
-\log(\text{ingreso semanal}_i) = \alpha + \beta \, \text{anios\_esc}_i + \epsilon_i
+Y_i = \alpha + \beta S_i + \epsilon_i
 \end{equation}
+donde $Y_i$ es el logaritmo del ingreso semanal y $S_i$ son los años de escolaridad del individuo $i$.
 
 Regresión sobre las medias condicionales por año de escolaridad, ponderada por el número de observaciones $n_e$ en cada grupo:
 \begin{equation}
-\overline{\log(\text{ingreso semanal})}_e = \alpha + \beta \, \text{anios\_esc}_e + u_e, \quad \text{ponderado por } n_e
+\overline{Y}_e = \alpha + \beta S_e + u_e, \quad \text{ponderado por } n_e
 \end{equation}
+donde $\overline{Y}_e$ es la media condicional de $Y_i$ para el grupo con $S_e$ años de escolaridad.
 
 \input{figures/tabla_reg_fec.tex}
 
